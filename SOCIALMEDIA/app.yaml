@@ -1,6 +1,5 @@
-
 runtime: custom
-env: standard
+env: flex
 
 resources:
   cpu: 1

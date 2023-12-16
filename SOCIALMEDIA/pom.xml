@@ -125,12 +125,12 @@
 				<version>2.4.0</version>
 			</plugin>
 			<plugin>
-    				<groupId>org.apache.maven.plugins</groupId>
-    				<artifactId>maven-compiler-		plugin</artifactId>
-    				<version>3.8.1</version> <!-- Phi�n b?n n�y h? tr? Java 17 -->
-    				<configuration>
-        				<release>17</release> <!-- S? d?ng Java 17 -->
-    				</configuration>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version> <!-- hoặc phiên bản mới hơn -->
+				<configuration>
+					<release>17</release>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
